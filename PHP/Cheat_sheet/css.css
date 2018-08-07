@@ -1,0 +1,27 @@
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.col-md-12 {
+    border-bottom:2px solid #adadad30;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.col-md-12:nth-child(odd){
+    background-color: #fce3e375;
+}
+
+.col-md-12:nth-child(even) {
+    background-color: #f0cbcbb0;
+}
+.bold {
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+}
+
+.sort-left {
+    text-align: left;
+}

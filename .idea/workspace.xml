@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d42f2532-021d-4817-820b-5ddcce5f2346" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/blog/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pamoka.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/Pamoka.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cars.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/cars.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1352">
+              <caret line="89" column="75" selection-start-line="89" selection-start-column="75" selection-end-line="89" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>action=&quot;</find>
+      <find>a href=&quot;</find>
+      <find>public/cars</find>
+      <find>logincontroller</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>action=&quot;http://localhost/blog/public/cars</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Programos\XAMPP\htdocs\blog\resources\views</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lara" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Vardas.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/testas.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Forma.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_155253_owner.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_150559_testas.php" />
+        <option value="$PROJECT_DIR$/blog/app/testas.php" />
+        <option value="$PROJECT_DIR$/blog/app/owners.php" />
+        <option value="$PROJECT_DIR$/blog/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_163346_flowers.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_165623_cities.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_214246_animals.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_215239_fishes.php" />
+        <option value="$PROJECT_DIR$/blog/.env" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_155150_cars.php" />
+        <option value="$PROJECT_DIR$/blog/database/migrations/2018_08_01_155253_owners.php" />
+        <option value="$PROJECT_DIR$/blog/app/cars.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/cars_delete.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/owners_delete.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/DeleteOwnersController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/DeleteCarsController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Cars.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/UpdateOwnersController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Owners.php" />
+        <option value="$PROJECT_DIR$/blog/resources/lang/lt/lt.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/addCar.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/addOwner.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/ownersUpdate.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/vertimas.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/UpdateCarsController.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/carsUpdate.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/success.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/lang/en/vertimas.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/updateOwners.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/updateCars.blade.php" />
+        <option value="$PROJECT_DIR$/blog/resources/lang/lt/vertimas.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/owners.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Middleware/Localization.php" />
+        <option value="$PROJECT_DIR$/blog/config/app.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Middleware/Pamoka.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LogIn.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LogInController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ResetPasswordController.php" />
+        <option value="$PROJECT_DIR$/blog/routes/web.php" />
+        <option value="$PROJECT_DIR$/blog/resources/views/cars.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/blog/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/blog/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/blog/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/blog/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/blog/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/blog/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/blog/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/blog/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/blog/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/blog/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/blog/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/blog/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/blog/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/blog/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/blog/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/blog/vendor/composer" />
+      <path value="$PROJECT_DIR$/blog/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/blog/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/blog/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/blog/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/blog/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/blog/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/blog/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/blog/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/blog/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/blog/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/blog/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/blog/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/blog/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/blog/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/blog/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/blog/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/blog/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/blog/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/blog/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/blog/vendor/symfony/translation" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="574" />
+    <option name="y" value="67" />
+    <option name="width" value="1058" />
+    <option name="height" value="632" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/resources/views" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programos\XAMPP\htdocs\blog\app\Http\Controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programos\XAMPP\htdocs\blog\app\Http\Controllers\Auth" />
+      <recent name="D:\Programos\XAMPP\htdocs\blog\app\Http\Controllers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d42f2532-021d-4817-820b-5ddcce5f2346" name="Default" comment="" />
+      <created>1533020198047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533020198047</updated>
+      <workItem from="1533020199827" duration="880000" />
+      <workItem from="1533047894986" duration="7481000" />
+      <workItem from="1533064022116" duration="1997000" />
+      <workItem from="1533125168901" duration="1675000" />
+      <workItem from="1533134495128" duration="7410000" />
+      <workItem from="1533159203486" duration="1026000" />
+      <workItem from="1533160271489" duration="172000" />
+      <workItem from="1533220759423" duration="6029000" />
+      <workItem from="1533232850605" duration="6098000" />
+      <workItem from="1533289628955" duration="3326000" />
+      <workItem from="1533294750781" duration="387000" />
+      <workItem from="1533295155971" duration="135000" />
+      <workItem from="1533295310404" duration="761000" />
+      <workItem from="1533486997806" duration="690000" />
+      <workItem from="1533555200469" duration="654000" />
+      <workItem from="1533556493044" duration="123000" />
+      <workItem from="1533566392327" duration="120000" />
+      <workItem from="1533567086854" duration="5175000" />
+      <workItem from="1533579652043" duration="6536000" />
+      <workItem from="1533636456944" duration="4941000" />
+      <workItem from="1533652507662" duration="6596000" />
+      <workItem from="1533663735521" duration="3559000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65771000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.48827294" side_tool="true" visible="true" weight="0.17869034" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.5117271" visible="true" weight="0.17869034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/lara" />
+    </ignored-roots>
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>D:\Programos\XAMPP\htdocs\website1</wordpressPath>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/owners_delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/DeleteCarsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/testas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/testas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/database/migrations/2018_08_01_155150_cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/DeleteOwnersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Forma.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.360/web.php" />
+    <entry file="file://$PROJECT_DIR$/blog/app/Cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Owners.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/AddCarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.219/web.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.023/web.php" />
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/ownersUpdate.blade.php" />
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/carsUpdate.blade.php" />
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/UpdateCarsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/addCar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/cars_delete.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/addOwner.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="125" column="18" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/success.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="93" column="124" selection-start-line="93" selection-start-column="124" selection-end-line="93" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/vertimas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/updateCars.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="133" column="46" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/updateOwners.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="95" selection-start-line="123" selection-start-column="95" selection-end-line="123" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/owners.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/AddOwnerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/lang/en/vertimas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/lang/lt/vertimas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/UpdateOwnersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/Localization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/config/logging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-787" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/auth/passwords/email.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/auth/passwords/reset.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/LogIn.php" />
+    <entry file="file://$PROJECT_DIR$/blog/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ForgotPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Controllers/Auth/ResetPasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#43#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/Http/Middleware/Pamoka.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="89" column="75" selection-start-line="89" selection-start-column="75" selection-end-line="89" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/resources/views/cars.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
