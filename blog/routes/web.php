@@ -46,9 +46,13 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['middleware' => 'auth'], function () {
 
-    //GET ALL DATA
+
+
+
+//Login for data editing and etc.
+Route::group(['middleware' => 'auth'], function () {
+    //GET ALL DATA FOR CARS & OWNERS
     Route::get('/cars', function () {
         $data = \App\Cars::getAllCars();
 
@@ -61,9 +65,9 @@ Route::group(['middleware' => 'auth'], function () {
         return view('owners', ['data'=>$data]);
     })->name('owners');
 
-// DELETE DATA
-//Route::get('delete-cars','DeleteCarsController@index'); //we dont use
-//Route::get('delete-owners','DeleteOwnersController@index'); //we dont use
+    // DELETE DATA
+    //Route::get('delete-cars','DeleteCarsController@index'); //we dont use
+    //Route::get('delete-owners','DeleteOwnersController@index'); //we dont use
 
     Route::get('delete_car/{id}','DeleteCarsController@destroy');
     Route::get('delete_owner/{id}','DeleteOwnersController@destroy');
@@ -80,5 +84,7 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::get('/addcar','AddCarController@showOwnersInForm')->name('showOwnersInForm');
     Route::post('/addcar/save','AddCarController@saveCarData')->name('saveCarData');
-});
 
+    Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
+});
