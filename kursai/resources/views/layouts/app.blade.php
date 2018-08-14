@@ -41,6 +41,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('groups') }}">{{ __('Groups') }}</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('lectures') }}">{{ __('Lectures') }}</a>
+                        </li>
                     @endif
                 </ul>
 
