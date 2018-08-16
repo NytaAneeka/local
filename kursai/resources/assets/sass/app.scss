@@ -12,3 +12,23 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+.customBttn {
+  width: 100%;
+  background: #d6d5d7;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  border:none!important;
+}
+
+.customBttn:hover{
+  background: #40b6ae;
+}
+
+.customBttn:hover .fa-plus{
+  color: white;
+}
+
+.fa-plus{
+  color: white;
+}

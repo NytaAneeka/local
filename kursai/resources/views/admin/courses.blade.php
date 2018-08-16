@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <a href="{{route('newCourse')}}" type="button" class="btn btn-primary">Add course</a>
+    <a href="{{route('newCourse')}}" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Add new course"><i class="fa fa-plus fa-2x"></i></a>
 
     <div class="table-responsive">
         <table class="table table-hover table-bordered">

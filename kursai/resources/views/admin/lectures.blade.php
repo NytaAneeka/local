@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <a href="{{route('newLecture')}}" type="button" class="btn btn-primary">Add lecture</a>
+        <a href="{{route('newLecture')}}" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Add new lecture"><i class="fa fa-plus fa-2x"></i></a>
 
         <div class="table-responsive">
             <table class="table table-hover table-bordered">
@@ -23,7 +23,7 @@
 
                         <th scope="row">{{$lecture->id}}</th>
                         <td><a href="">{{$lecture->group->name}}</a></td>
-                        <th scope="row">{{$lecture->date}}</th>
+                        <th scope="row">{{date("Y-m-d", strtotime($lecture->date))}}</th>
                         <th scope="row">{{$lecture->name}}</th>
                         <th scope="row">{{$lecture->description}}</th>
 

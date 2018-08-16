@@ -42,5 +42,12 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/lectures/{id}','admin\LecturesController@getLecture')->name('getLecture');
     Route::post('/admin/lectures/edit/{id}','admin\LecturesController@updateLecture')->name('updateLecture');
     Route::get('/admin/lectures/delete/{id}','admin\LecturesController@deleteLecture')->name('deleteLecture');
+//Files
+    Route::get('/admin/files','admin\FilesController@index')->name('files');
+    Route::post('/admin/files/add','admin\FilesController@addFiles')->name('addFiles');
+    Route::get('/admin/files/delete/{id}','admin\FilesController@deleteFile')->name('deleteFile');
+    Route::get('/admin/files/toggle/{id}','admin\FilesController@toggleShow')->name('toggleShow');
+    Route::get('/admin/files/edit/{id}','admin\FilesController@getFile')->name('getFile');
+    Route::post('/admin/files/update/{id}','admin\FilesController@updateFile')->name('updateFile');
 
 });

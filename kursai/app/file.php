@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class file extends Model
 {
-    public function lecture() {
-        return $this->belongsTo('App\lecture');
+    public function lectures() {
+        return $this->belongsToMany('App\lecture', 'lecture_file')->withTimestamps();
     }
 }

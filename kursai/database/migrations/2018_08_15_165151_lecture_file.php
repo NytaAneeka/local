@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Files extends Migration
+class LectureFile extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class Files extends Migration
      */
     public function up()
     {
-        Schema::create('files', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('file_url');
-            $table->string('name',100);
-            $table->boolean('show')->default(true);
+        Schema::create('lecture_file', function (Blueprint $table) {
+            $table->integer('lecture_id')->unsigned();
+            $table->integer('file_id')->unsigned();
+            $table->foreign('lecture_id')->references('id')->on('lectures');
+            $table->foreign('file_id')->references('id')->on('files');
             $table->rememberToken();
             $table->timestamps();
         });
@@ -30,7 +30,6 @@ class Files extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('files');
-
+        Schema::dropIfExists('lecture_file');
     }
 }

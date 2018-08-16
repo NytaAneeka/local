@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <a href="{{route('newGroup')}}" type="button" class="btn btn-primary">Add group</a>
+        <a href="{{route('newGroup')}}" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Add new group"><i class="fa fa-plus fa-2x"></i></a>
 
         <div class="table-responsive">
             <table class="table table-hover table-bordered">
@@ -26,8 +26,8 @@
                         <td><a href="">{{$group->name}}</a></td>
                         <th scope="row">{{$group->course->name}}</th>
                         <th scope="row">{{$group->user->name}}</th>
-                        <th scope="row">{{$group->start}}</th>
-                        <th scope="row">{{$group->end}}</th>
+                        <th scope="row">{{date("Y-m-d", strtotime($group->start))}}</th>
+                        <th scope="row">{{date("Y-m-d", strtotime($group->end))}}</th>
 
                         <td>
                             <a href="{{route('getGroup',$group->id)}}" type="button" class="btn btn-success">Edit</a>
