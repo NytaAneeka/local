@@ -2,6 +2,9 @@
 
 @section('content')
 <div class="container">
+    <div class="headingContainer">
+    <h1>Courses</h1>
+    </div>
     <a href="{{route('newCourse')}}" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Add new course"><i class="fa fa-plus fa-2x"></i></a>
 
     <div class="table-responsive">
@@ -16,11 +19,11 @@
             <tbody>
             @foreach($courses as $course)
             <tr>
-                <th scope="row">{{$course->id}}</th>
-                <td><a href="">{{$course->name}}</a></td>
+                <td scope="row">{{$course->id}}</td>
+                <td scope="row">{{$course->name}}</td>
                 <td>
-                    <a href="{{route('getCourse',$course->id)}}" type="button" class="btn btn-success">Edit</a>
-                    <a href="{{route('deleteCourse',$course->id)}}" type="button" class="btn btn-danger">Delete</a>
+                    <a href="{{route('getCourse',$course->id)}}" class="btn btn-success">Edit</a>
+                    <a href="{{route('deleteCourse',$course->id)}}" class="btn btn-danger">Delete</a>
 
                 </td>
             </tr>

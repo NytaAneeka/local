@@ -2,12 +2,22 @@
 
 @section('content')
     <div class="container">
+        <div class="headingContainer">
+            <h1>Files</h1>
+        </div>
         <form method="post" action="{{route('addFiles')}}" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
-                <label for="files">Add new file</label>
-                <input type="file" class="form-control-file " id="files" name="failai[]" multiple>
-                <input type="submit" class="button btn-primary" value="Submit">
+
+                <div class="row">
+                    <div class="upload-btn-wrapper col-sm-6">
+                        <button class="btn btn-primary customBttn" type="button"><i class="fa fa-plus fa-2x"></i></button>
+                        <input type="file" name="failai[]" multiple data-toggle="tooltip" data-placement="top" title="Add new file">
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="submit" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Submit"><i class="fas fa-check fa-2x"></i></button>
+                    </div>
+                </div>
             </div>
         </form>
 
@@ -38,7 +48,10 @@
 
                         <td scope="row">{{$file->name}}</td>
                         <td>
-                            {{--<a href="">{{$file->lecture->name}}</a>--}}
+                            @foreach($file->lectures as $lecture)
+                                <a href="{{route('lectureDetails',$lecture->id)}}">{{$lecture->name}}</a>
+                                <br>
+                                @endforeach
                         </td>
                         <td scope="row">
                             @if($file->show==1)
@@ -49,15 +62,15 @@
                         </td>
 
                         <td>
-                            <a href="{{route('toggleShow',$file->id)}}" type="button" class="btn btn-info">
+                            <a href="{{route('toggleShow',$file->id)}}" class="btn btn-info">
                                 @if($file->show == 1)
                                     Hide
                                 @else
                                     Show
                                 @endif
                             </a>
-                            <a href="{{route('getFile',$file->id)}}" type="button" class="btn btn-success">Edit</a>
-                            <a href="{{route('deleteFile',$file->id)}}" type="button" class="btn btn-danger">Delete</a>
+                            <a href="{{route('getFile',$file->id)}}" class="btn btn-success">Edit</a>
+                            <a href="{{route('deleteFile',$file->id)}}" class="btn btn-danger">Delete</a>
                         </td>
                     </tr>
 

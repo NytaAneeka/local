@@ -2,8 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="headingContainer">
         <h2>Add new lecture</h2>
-
+        </div>
         <form method="post" action="{{route('addLecture')}}">
             @csrf
             <div class="form-group">
@@ -33,7 +34,7 @@
                 <input class="form-control" type="date" value="" id="date" name="date">
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Submit"><i class="fas fa-check fa-2x"></i></button>
         </form>
     </div>
 

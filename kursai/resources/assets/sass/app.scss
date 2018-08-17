@@ -8,6 +8,14 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+html {
+  background: white;
+}
+
+body {
+  color:grey;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -29,6 +37,43 @@
   color: white;
 }
 
-.fa-plus{
+.fa-plus, .fa-check{
   color: white;
 }
+
+.py-4{
+  text-align: center;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.headingContainer {
+  margin: 20px 0 40px 0;
+}
+
+h1,h2 {
+  border: solid 2px #dee2e6;
+  border-left: none;
+  border-right: none;
+  color:#786f6f;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+
+tbody tr:nth-of-type(odd){
+  background: white;
+}
+

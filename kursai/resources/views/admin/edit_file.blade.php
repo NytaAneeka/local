@@ -2,7 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="headingContainer">
         <h2>Edit file</h2>
+        </div>
         @if($file)
             <form method="post" action="{{route('updateFile',$file->id)}}">
                 @csrf
@@ -23,7 +25,7 @@
                         @endif
                     </div>
                 @endforeach
-                <button type="submit" class="btn btn-primary" style="display: block;">Submit</button>
+                <button type="submit" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Submit"><i class="fas fa-check fa-2x"></i></button>
             </form>
         @endif
     </div>

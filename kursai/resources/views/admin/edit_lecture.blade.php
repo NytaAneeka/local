@@ -2,7 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="headingContainer">
         <h2>Edit lecture</h2>
+        </div>
         @if($lecture)
             <form method="post" action="{{route('updateLecture',$lecture->id)}}">
                 @csrf
@@ -38,7 +40,7 @@
                     <input class="form-control" type="date" id="date" name="date" value="{{date("Y-m-d", strtotime($lecture->date))}}">
                 </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Submit"><i class="fas fa-check fa-2x"></i></button>
             </form>
         @endif
     </div>

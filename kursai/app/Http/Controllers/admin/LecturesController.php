@@ -6,6 +6,7 @@ namespace App\Http\Controllers\admin;
 use App\group;
 use App\lecture;
 
+use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -54,6 +55,15 @@ class LecturesController extends Controller
         $lecture=lecture::find($id);
         $lecture->delete();
         return redirect()->route('lectures');
+    }
+
+    function lectureDetails($id){
+        $lecture=lecture::find($id);
+        $lecturerID=$lecture->group->user_id;
+        $lecturer=User::find($lecturerID);
+        $name=$lecturer->name . ' ' . $lecturer->lastname;
+        $data=array('lecture'=>$lecture,'name'=>$name);
+        return view('admin\lecture_details',$data);
     }
 
 }

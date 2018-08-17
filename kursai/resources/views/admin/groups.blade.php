@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container">
+        <div class="headingContainer">
+        <h1>Groups</h1>
+        </div>
         <a href="{{route('newGroup')}}" class="btn btn-primary customBttn" data-toggle="tooltip" data-placement="top" title="Add new group"><i class="fa fa-plus fa-2x"></i></a>
 
         <div class="table-responsive">
@@ -22,16 +25,16 @@
                 @foreach($groups as $group)
                     <tr>
 
-                        <th scope="row">{{$group->id}}</th>
-                        <td><a href="">{{$group->name}}</a></td>
-                        <th scope="row">{{$group->course->name}}</th>
-                        <th scope="row">{{$group->user->name}}</th>
-                        <th scope="row">{{date("Y-m-d", strtotime($group->start))}}</th>
-                        <th scope="row">{{date("Y-m-d", strtotime($group->end))}}</th>
+                        <td scope="row">{{$group->id}}</td>
+                        <td scope="row">{{$group->name}}</td>
+                        <td scope="row">{{$group->course->name}}</td>
+                        <td scope="row">{{$group->user->name}}</td>
+                        <td scope="row">{{date("Y-m-d", strtotime($group->start))}}</td>
+                        <td scope="row">{{date("Y-m-d", strtotime($group->end))}}</td>
 
                         <td>
-                            <a href="{{route('getGroup',$group->id)}}" type="button" class="btn btn-success">Edit</a>
-                            <a href="{{route('deleteGroup',$group->id)}}" type="button" class="btn btn-danger">Delete</a>
+                            <a href="{{route('getGroup',$group->id)}}" class="btn btn-success">Edit</a>
+                            <a href="{{route('deleteGroup',$group->id)}}" class="btn btn-danger">Delete</a>
                         </td>
 
                     </tr>
