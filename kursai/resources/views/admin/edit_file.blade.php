@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
-        <h2>Edit file</h2>
+            <span class="border-line"></span>
+            <h2>Edit file</h2>
+            <span class="border-line"></span>
         </div>
         @if($file)
             <form method="post" action="{{route('updateFile',$file->id)}}">

@@ -14,15 +14,16 @@ html {
 
 body {
   color:grey;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
 .customBttn {
   width: 100%;
-  background: #d6d5d7;
   text-align: center;
   color: black;
   margin-bottom: 10px;
@@ -64,16 +65,57 @@ body {
 }
 
 h1,h2 {
-  border: solid 2px #dee2e6;
-  border-left: none;
-  border-right: none;
+  padding-top: 10px;
   color:#786f6f;
   text-transform: uppercase;
-  font-weight:bold;
 }
-
 
 tbody tr:nth-of-type(odd){
   background: white;
 }
 
+.nav-item{
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#40b6ae;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #40b6ae4d;
+}
+
+.border-line {
+  display:block;
+  border:none;
+  color:white;
+  height:2px;
+  background:black;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 600, from(#40b6ae), to(#f5f8fa));
+}
+
+.form-check-inline .form-check-input {
+  margin-left: 15px;
+}
+
+.editBttn:hover {
+  background: #aed5b0;
+  color: black;
+}
+
+.deleteBttn:hover{
+  background: #ff1111a3;
+  color: black;
+}
+
+.messageBttn:hover{
+  background: #aed5b0;
+  color: black;
+}
+
+.btn{
+  background: #d6d5d7;
+  color: white;
+  border: none;
+}

@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
+            <span class="border-line"></span>
             <h1>Files</h1>
+            <span class="border-line"></span>
         </div>
         <form method="post" action="{{route('addFiles')}}" enctype="multipart/form-data">
             @csrf
@@ -62,15 +64,17 @@
                         </td>
 
                         <td>
-                            <a href="{{route('toggleShow',$file->id)}}" class="btn btn-info">
+                            <a href="{{route('toggleShow',$file->id)}}" class="btn btn-dark">
                                 @if($file->show == 1)
                                     Hide
                                 @else
                                     Show
                                 @endif
                             </a>
-                            <a href="{{route('getFile',$file->id)}}" class="btn btn-success">Edit</a>
-                            <a href="{{route('deleteFile',$file->id)}}" class="btn btn-danger">Delete</a>
+                            <a href="{{route('getFile',$file->id)}}" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Edit"><i class="fas fa-edit"></i></a>
+                            <a href="{{route('deleteFile',$file->id)}}" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Delete"><i class="fas fa-minus"></i></a>
+
+
                         </td>
                     </tr>
 

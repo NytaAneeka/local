@@ -35,6 +35,8 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/groups/{id}','admin\GroupsController@getGroup')->name('getGroup');
     Route::post('/admin/groups/edit/{id}','admin\GroupsController@updateGroup')->name('updateGroup');
     Route::get('/admin/groups/delete/{id}','admin\GroupsController@deleteGroup')->name('deleteGroup');
+    Route::get('admin/groups/email/{id}','admin\GroupsController@getEmail')->name('getGroupEmail');
+    Route::post('admin/groups/email/send/{id}','admin\GroupsController@sendEmail')->name('sendGroupEmail');
 //Lectures
     Route::get('/admin/lectures','admin\LecturesController@index')->name('lectures');
     Route::get('/admin/lectures/new','admin\LecturesController@newLecture')->name('newLecture');
@@ -50,5 +52,15 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('/admin/files/toggle/{id}','admin\FilesController@toggleShow')->name('toggleShow');
     Route::get('/admin/files/edit/{id}','admin\FilesController@getFile')->name('getFile');
     Route::post('/admin/files/update/{id}','admin\FilesController@updateFile')->name('updateFile');
-
+//Students
+    Route::get('admin/students','admin\StudentsController@index')->name('students');
+    Route::get('admin/students/unconfirmed','admin\StudentsController@unconfirmedStudents')->name('unconfirmed');
+    Route::get('admin/students/add','admin\StudentsController@addStudent')->name('addStudent');
+    Route::get('admin/students/confirm/{id}','admin\StudentsController@confirmStudent')->name('confirm');
+    Route::post('admin/students/create','admin\StudentsController@create')->name('createStudent');
+    Route::get('admin/students/{id}', 'admin\StudentsController@getStudent')->name('getStudent');
+    Route::post('admin/students/update/{id}','admin\StudentsController@updateStudent')->name('updateStudent');
+    Route::get('admin/students/delete/{id}','admin\StudentsController@deleteStudent')->name('deleteStudent');
+    Route::get('admin/students/email/{id}','admin\StudentsController@getEmail')->name('getEmail');
+    Route::post('admin/students/email/send','admin\StudentsController@sendEmail')->name('sendEmail');
 });

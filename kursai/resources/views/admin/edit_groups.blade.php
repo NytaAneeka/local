@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
-        <h2>Edit group</h2>
+            <span class="border-line"></span>
+            <h2>Edit group</h2>
+            <span class="border-line"></span>
         </div>
         @if ($group)
             <form method="post" action="{{route('updateGroup',$group->id)}}">
@@ -36,9 +38,9 @@
                     <select class="form-control" id="lecturerName" name="lecturerName">
                         @foreach($lecturers as $lecturer)
                             @if($lecturer->id == $group->user_id)
-                            <option value="{{$lecturer->id}}" selected>
-                                {{$lecturer->name}}
-                            </option>
+                                <option value="{{$lecturer->id}}" selected>
+                                    {{$lecturer->name}}
+                                </option>
                             @else
                                 <option value="{{$lecturer->id}}">
                                     {{$lecturer->name}}

@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
-        <h2>Lecture details</h2>
+            <span class="border-line"></span>
+            <h2>Lecture details</h2>
+            <span class="border-line"></span>
         </div>
         <p>Course name: {{$lecture->group->course->name}}</p>
         <p>Group name: {{$lecture->group->name}}</p>
@@ -12,7 +14,7 @@
         <p>Included files:</p>
         <br>
         @foreach($lecture->files as $file)
-        <p class="border">{{$file->name}}</p>
+            <p class="border">{{$file->name}}</p>
 
         @endforeach
 

@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
-        <h2>Add new course</h2>
+            <span class="border-line"></span>
+            <h2>Add new course</h2>
+            <span class="border-line"></span>
         </div>
         <form method="post" action="{{route('addCourse')}}">
             @csrf

@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
-        <h2>Add new group</h2>
+            <span class="border-line"></span>
+            <h2>Add new group</h2>
+            <span class="border-line"></span>
         </div>
         <form method="post" action="{{route('addGroup')}}">
             @csrf
@@ -19,7 +21,7 @@
                         <option value="{{$course->id}}">
                             {{$course->name}}
                         </option>
-                        @endforeach
+                    @endforeach
                 </select>
             </div>
 
@@ -36,7 +38,7 @@
 
             <div class="form-group">
                 <label for="startDate">Start date:</label>
-                    <input class="form-control" type="date" value="" id="startDate" name="startDate">
+                <input class="form-control" type="date" value="" id="startDate" name="startDate">
             </div>
 
             <div class="form-group">

@@ -3,7 +3,9 @@
 @section('content')
     <div class="container">
         <div class="headingContainer">
-        <h2>Edit lecture</h2>
+            <span class="border-line"></span>
+            <h2>Edit lecture</h2>
+            <span class="border-line"></span>
         </div>
         @if($lecture)
             <form method="post" action="{{route('updateLecture',$lecture->id)}}">
