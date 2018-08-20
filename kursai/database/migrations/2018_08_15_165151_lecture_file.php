@@ -16,8 +16,8 @@ class LectureFile extends Migration
         Schema::create('lecture_file', function (Blueprint $table) {
             $table->integer('lecture_id')->unsigned();
             $table->integer('file_id')->unsigned();
-            $table->foreign('lecture_id')->references('id')->on('lectures');
-            $table->foreign('file_id')->references('id')->on('files');
+            $table->foreign('lecture_id')->references('id')->on('lectures')->onDelete('cascade');
+            $table->foreign('file_id')->references('id')->on('files')->onDelete('cascade');
             $table->rememberToken();
             $table->timestamps();
         });

@@ -64,3 +64,12 @@ Route::group(['middleware' => 'admin'], function () {
     Route::get('admin/students/email/{id}','admin\StudentsController@getEmail')->name('getEmail');
     Route::post('admin/students/email/send','admin\StudentsController@sendEmail')->name('sendEmail');
 });
+
+Route::get('/user/account','HomeController@getUserDetails')->name('getUserDetails');
+Route::post('/user/account/submit','HomeController@updateUserDetails')->name('updateUserDetails');
+
+Route::group(['middleware' => 'student'], function () {
+    Route::get('/groups', 'admin\StudentsController@getStudentGroup')->name('getStudentGroup');
+    Route::get('/groups/{id}/lectures', 'admin\StudentsController@getStudentLectures')->name('getStudentLectures');
+});
+Route::get('/unconfirmed','admin\StudentsController@unconfirmedMiddleware')->name('unconfirmedMiddleware');

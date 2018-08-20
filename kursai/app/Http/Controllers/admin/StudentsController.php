@@ -6,6 +6,7 @@ use App\group;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
@@ -136,4 +137,28 @@ class StudentsController extends Controller
         return redirect()->route('students');
     }
 
+    function unconfirmedMiddleware(){
+        return view('notStudent');
+    }
+
+    function getStudentGroup(){
+        $user=Auth::user();
+        $data=array('user'=>$user);
+        return view('student_groups',$data);
+    }
+    function getStudentLectures($id){
+        $user=Auth::user();
+        $userGroups = $user->groups;
+        $group = group::find($id);
+        $grupes = array();
+        foreach($userGroups as $ugroup){
+            $grupes[] = $ugroup->id;
+        }
+        if(in_array($group->id, $grupes)){
+            $inGroup = true;
+        }
+        $lectures = $group->lectures()->paginate(10);
+        $data=array('user'=>$grupes, 'lectures'=>$lectures, 'inGroup' =>$inGroup );
+        return view('student_lectures',$data);
+    }
 }

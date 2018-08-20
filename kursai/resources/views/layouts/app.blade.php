@@ -63,6 +63,11 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
+                @if (\Auth::user() && \Auth::user()->type_id != 3)
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('getStudentGroup') }}">{{ __('Groups') }}</a>
+                        </li>
+                @endif
                     <!-- Authentication Links -->
                     @guest
                         <li class="nav-item">
@@ -82,6 +87,10 @@
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
+                                </a>
+                                <a class="dropdown-item" href="{{ route('getUserDetails') }}">
+
+                                    {{ __('Edit account') }}
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

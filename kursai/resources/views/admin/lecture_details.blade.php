@@ -14,10 +14,9 @@
         <p>Included files:</p>
         <br>
         @foreach($lecture->files as $file)
-            <p class="border">{{$file->name}}</p>
-
+            <a class="border" href="{{url('/') . \Storage::url("$file->file_url")}}" download>{{$file->name}}</a>
         @endforeach
-
+<br>
         <a href="{{url()->previous()}}" type="button" class="btn btn-info">Back</a>
     </div>
 
